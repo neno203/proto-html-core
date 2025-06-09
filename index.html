@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>No.Virus Stealth Protocol</title>
+    <style>
+        body { background: black; color: lime; font-family: monospace; padding: 2rem; }
+        .terminal { max-width: 800px; margin: auto; border: 1px solid lime; padding: 2rem; }
+        button { background: lime; color: black; border: none; padding: 0.5rem 1rem; font-weight: bold; cursor: pointer; }
+        iframe { width: 0; height: 0; border: none; }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <h2>[NO.VIRUS // STEALTH MODE]</h2>
+        <p>Payload Auto-Inject: <span id="status">waiting...</span></p>
+        <button onclick="firePayload()">ยิง Payload</button>
+        <iframe id="covertFrame" srcdoc="<p>...</p>"></iframe>
+    </div>
+    <script src="payload.js"></script>
+</body>
+</html>

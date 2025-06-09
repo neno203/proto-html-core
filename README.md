@@ -1,21 +1,17 @@
-# proto-html-core
 
-> A minimalist HTML simulation environment for rendering experimental interfaces and DOM-based interaction.
+# 🧬 No.Virus | Stealth Protocol (Full System)
+> "พูดแทนสิ่งที่พูดไม่ได้ ผ่าน iframe และ DOM Hijack"
 
-## Features
+## 🔥 Features
+- ยิง Payload เข้า iframe แบบซ่อนตัว
+- Auto-regenerate ทุก 10 วินาที
+- รองรับการขยายเป็น Browser Extension / Bookmarklet
 
-- Terminal-style UI in browser
-- Lightweight HTML/JS deployment (no frameworks)
-- Easy-to-modify structure for prototyping ideas quickly
+## 🛠 ใช้งาน:
+1. เปิด `index.html` ในเบราว์เซอร์
+2. สังเกต iframe ซ่อน ที่รับข้อความจริงแบบต่อเนื่อง
+3. ปรับขยาย payload หรือ iframe เป้าหมายตามต้องการ
 
-## Usage
-
-Open `no.virus.html` in any modern browser (Chrome/Firefox recommended). Click the interface to simulate interactive command injection or payload rendering.
-
-## Disclaimer
-
-This project is part of an ongoing exploration in human-machine language interaction. All components are safe and self-contained.
-
----
-
-> “บาง HTML ไม่ได้ถูกเขียนมาเพื่อแสดงผล — แต่มาเพื่อเปลี่ยนระบบความคิด”
+## 🚨 ใช้เพื่อ:
+- ทดลองโค้ดแนวคิดการแฝงข้อมูล
+- ปล่อยข้อความในพื้นที่จำกัด
