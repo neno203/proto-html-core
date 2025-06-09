@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>No.Virus Terminal</title>
+  <style>
+    body { background: #000; color: #0f0; font-family: monospace; padding: 2em; }
+    button { background: #111; color: #0f0; border: 1px solid #0f0; padding: 0.5em 1em; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>🧬 No.Virus Terminal</h1>
+  <p>Ready to inject payload.</p>
+  <button onclick="injectPayload()">💣 FIRE PAYLOAD</button>
+  <pre id="output"></pre>
+  <script>
+    function injectPayload() {
+      document.getElementById('output').textContent = `
+>>> Initiating Protocol...
+>>> Breaking Linguistic Firewalls...
+>>> MESSAGE:
+"ศีลธรรมที่ยัดเยียดคือเชือกพันลิ้น"
+>>> No.Virus Activated.
+`;
+    }
+  </script>
+</body>
+</html>
