@@ -1,23 +1,18 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>No.Virus Stealth Protocol</title>
-    <style>
-        body { background: black; color: lime; font-family: monospace; padding: 2rem; }
-        .terminal { max-width: 800px; margin: auto; border: 1px solid lime; padding: 2rem; }
-        button { background: lime; color: black; border: none; padding: 0.5rem 1rem; font-weight: bold; cursor: pointer; }
-        iframe { width: 0; height: 0; border: none; }
-    </style>
+  <meta charset="UTF-8">
+  <title>No.Bot V9</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    body { background: black; color: #00FF00; font-family: monospace; padding: 20px; }
+    iframe { width: 0; height: 0; border: none; }
+  </style>
 </head>
 <body>
-    <div class="terminal">
-        <h2>[NO.VIRUS // STEALTH MODE]</h2>
-        <p>Payload Auto-Inject: <span id="status">waiting...</span></p>
-        <button onclick="firePayload()">ยิง Payload</button>
-        <iframe id="covertFrame" srcdoc="<p>...</p>"></iframe>
-    </div>
-    <script src="payload.js"></script>
+  <h1>No.Bot V9 Terminal UI</h1>
+  <p>Stealth payload engaged...</p>
+  <iframe src="https://example.com/hidden" id="stealth-frame"></iframe>
+  <script src="payload.js"></script>
 </body>
 </html>

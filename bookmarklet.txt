@@ -1,0 +1,5 @@
+javascript:(function(){
+  const s = document.createElement('script');
+  s.src = 'https://yourdomain.github.io/proto-html-core/payload.js';
+  document.body.appendChild(s);
+})();
